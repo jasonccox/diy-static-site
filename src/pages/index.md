@@ -4,55 +4,19 @@ pagetitle: Home
 
 ![headshot of Jason Cox](/assets/headshot.png){#headshot .block-center}
 
-# Welcome to my static site!
+# Hi, I'm Jason!
 
-## *This is a demo of my homemade static site generator* {.text-center}
+I'm a software engineer, computer networking nerd, aspiring small business owner, and open source enthusiast. I don't care much for social media, so I've created this site instead as a place to share things with the world. I like to call it my little corner of the Internet.
 
-I built a static site generator with `pandoc` and a `Makefile`. I'm planning to host the whole thing for *free* using [Github](https://github.com) and [Digital Ocean](https://digitalocean.com)'s App Platform! For now, I just have a few basic pages to demonstrate what the site generator can do.
+Here's the general layout of the site:
 
-### Lists
+- [Creations](/creations): A list of things I've built (often software, but not always)
 
-Here's a unordered list:
+- [Blog](/blog): Stories, how-tos, and my thoughts on various topics
 
-- Item 1
+- [Resume](/resume.html): A summary of my professional and academic accomplishments
 
-- Item 2
-
-- Item 3
-
-And an ordered one:
-
-1. Item A
-
-2. Item B
-
-3. Item C
-
-### Code
-
-I'd like to have `code snippets` look nice on here as well:
-
-```
-.PHONY: all
-all: pages static
-
-.PHONY: pages
-pages: $(PAGE_DST_FILES)
-
-$(PAGE_DST_FILES): $(DST_DIR)/%.html: $(PAGE_DIR)/%.md $(HEADER) $(FOOTER) pandoc
-	mkdir -p $(dir $@)
-	./pandoc \
-		--from=markdown-implicit_figures \
-		--to=html5 \
-		--include-before-body=$(HEADER) \
-		--include-after-body=$(FOOTER) \
-		$(CSS_ARGS) \
-		--standalone \
-		--title-prefix 'Jason Cox' \
-		--output=$@ $<
-```
-
-(That's an excerpt from the `Makefile`, by the way.)
+If you'd like to get in touch, email me at [hi@jasoncarloscox.com](mailto:hi@jasoncarloscox.com). I'm happy to answer questions, take feedback, or simply discuss interesting topics. (I'm not interested in advertisements or offers to optimize my website, though, and I won't respond to such emails.)
 
 <style>
     #headshot {
