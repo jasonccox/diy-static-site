@@ -6,7 +6,7 @@ pagetitle: On Self-Hosting
 
 <div class="text-center">*[Last updated June 30, 2020]*</div>
 
-Ever since I aquired an old hand-me-down PC a few years ago, I've been interested in running a home server. When I got that computer, I tried self-hosting a [Nextcloud](https://nextcloud.com) instance but gave up quickly - my Linux skills were nearly non-existent, and the increase I saw in my electricity bills was about as much as I would have been saving by ditching my cloud storage provider. All in all, I figured I'd be better off letting professionals keep track of my important data.
+Ever since I acquired an old hand-me-down PC a few years ago, I've been interested in running a home server. When I got that computer, I tried self-hosting a [Nextcloud](https://nextcloud.com) instance but gave up quickly - my Linux skills were nearly non-existent, and the increase I saw in my electricity bills was about as much as I would have been saving by ditching my cloud storage provider. All in all, I figured I'd be better off letting professionals keep track of my important data.
 
 It wasn't long before I decided to give self-hosting another shot, though. Facing expanding storage needs and armed with more Linux skills and development experience, I started thinking about Nextcloud again. The hosts of the aptly-named [Self-Hosted](https://selfhosted.show/) podcasts were always talking about running all kinds of server applications with Docker, so I determined to try doing just that.
 
