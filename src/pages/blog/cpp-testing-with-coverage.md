@@ -4,8 +4,6 @@ pagetitle: Basic C++ Unit Testing with Coverage Using Catch2 and Gcov
 
 # Basic C++ Unit Testing with Coverage Using Catch2 and Gcov
 
-<div class="text-center">*[Last updated October 14, 2019]*</div>
-
 I recently wrote a basic C++ linked list implementation to sharpen my skills, and I quickly found myself in need of a good way to test my code. I found [Catch2](https://github.com/catchorg/Catch2?target=_blank), a simple C++ testing framework, and then used [Gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html?target=_blank) to ensure that my tests were covering all the code. By no means am I an expert, but I'll go ahead and share what I've learned so far.
 
 Here's the code we'll be testing in this example:
@@ -214,3 +212,5 @@ If you want to see exactly which lines of a file were covered, open the correspo
 > You may notice that many lines that appear to be executable are marked with a `-` in `LinkedList.h.gcov` (such as the entire `remove` method). That's because Gcov is claiming that after linking the binary, there was no chance of executing them (for example, because the method they're in never got called in the tests). There's a [Stack Overflow post](https://stackoverflow.com/questions/24321099/why-does-gcov-report-in-class-function-definitions-as-not-executable?target=_blank) with a bit more info if you want to check it out.
 
 Well, that's it! This is just a basic example of [Catch2](https://github.com/catchorg/Catch2?target=_blank) and [Gcov](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html?target=_blank) -- both are powerful tools capable of much more than I've shown here, but hopefully this is enough to help you get started.
+
+*[Last updated October 14, 2019]*

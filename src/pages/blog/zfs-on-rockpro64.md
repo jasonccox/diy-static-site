@@ -4,8 +4,6 @@ pagetitle: Setting Up ZFS on a ROCKPro64 Running Debian Buster
 
 # Setting Up ZFS on a ROCKPro64 Running Debian Buster
 
-<div class="text-center">*[Last updated May 9, 2020]*</div>
-
 I recently got a [ROCKPro64](https://www.pine64.org/rockpro64/) single-board computer that I'm planning to use as a home server. Once it arrived, I quickly discovered that setting up [ZFS](https://en.wikipedia.org/wiki/ZFS) on it was going to be a bit tricky because there were issues building DKMS modules. After a few hours of troubleshooting, I finally figured it out, so I thought I'd write up what I did in hopes that it'll help someone else get ZFS installed more easily.
 
 I initially discovered a fairly involved way of getting it all to work (see "The Hard Way" below), but later I found an easier way (see "The Easy Way" below). I'd recommend starting with the easy way and only resorting to the hard way if that doesn't work.
@@ -49,3 +47,5 @@ I discovered this method thanks to [this Github issue comment](https://github.co
 ## Notes
 
 Via the easy way, I tried installing `dkms`, `spl-dkms`, `zfs-dkms`, and `zfsutils-linux` all from the normal repo as well as from `buster-backports` as the [Debian docs on ZFS](https://wiki.debian.org/ZFS) say to do. I only tried installing them from the normal repo when doing the hard way, but I would guess they would install from `buster-backports` as well.
+
+*[Last updated May 9, 2020]*

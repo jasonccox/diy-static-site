@@ -4,8 +4,6 @@ pagetitle: On Self-Hosting
 
 # On Self-Hosting
 
-<div class="text-center">*[Last updated June 30, 2020]*</div>
-
 Ever since I acquired an old hand-me-down PC a few years ago, I've been interested in running a home server. When I got that computer, I tried self-hosting a [Nextcloud](https://nextcloud.com) instance but gave up quickly - my Linux skills were nearly non-existent, and the increase I saw in my electricity bills was about as much as I would have been saving by ditching my cloud storage provider. All in all, I figured I'd be better off letting professionals keep track of my important data.
 
 It wasn't long before I decided to give self-hosting another shot, though. Facing expanding storage needs and armed with more Linux skills and development experience, I started thinking about Nextcloud again. The hosts of the aptly-named [Self-Hosted](https://selfhosted.show/) podcasts were always talking about running all kinds of server applications with Docker, so I determined to try doing just that.
@@ -17,3 +15,5 @@ I also lowered the stakes by [using a VPN](https://github.com/trailofbits/algo) 
 Since then, I've wondered why self-hosting is so satisfying. The feeling I get from hosting my own cloud services is akin to the fulfillment that comes from fixing an appliance or building a new shelf for my home. Running my own server also provides me with the opportunity to practice some of the administration skills that can really come in handy as a software developer. Additionally, I'm sick of the lack of privacy available from cloud services, so self-hosting is a natural solution.
 
 At the end of the day, though, it's not about costs and benefits anymore; to me, it just feels fun! If you've never tried self-hosting, I highly recommend finding an old PC (or getting a cheap single-board computer) and playing around - you may just catch the bug too.
+
+*[Last updated June 30, 2020]*
