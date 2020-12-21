@@ -4,7 +4,7 @@ pagetitle: Resume
 
 # Resume
 
-I'm a recent computer science graduate with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you think I'd be a good fit for your organization, [email me](mailto:hi@jasoncarloscox.com).
+I'm a recent computer science graduate with several years of software engineering experience. I'm known for my ability to **learn quickly**, **work independently**, and **get the details right**. If you'd like to work with me, [get in touch](mailto:hi@jasoncarloscox.com).
 
 ---
 
