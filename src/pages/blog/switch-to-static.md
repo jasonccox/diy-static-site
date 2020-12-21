@@ -1,0 +1,21 @@
+---
+pagetitle: Why I Switched to a Super Simple Static Site
+---
+
+# Why I Switched to a Super Simple Static Site
+
+For the last year and a half I ran my personal website using [Grav CMS](https://getgrav.org) with my own [Webfolio](https://github.com/jasonccox/grav-theme-webfolio) theme. However, it's now a super simple static site built with [Pandoc](https://pandoc.org) and [GNU Make](https://www.gnu.org/software/make/). In this post, I'll explain why I decided to make that switch.
+
+Until recently, I was hosting my site for free through my university. As graduation approached, I knew I'd need to move to a different hosting provider. At the same time, I began thinking about expanding my site's purpose. Originally I designed the site as an online portfolio, but I was sick of that; the whole thing felt a bit fake, like a bad advertisement. I wanted to create a website to share my creations, thoughts, and interests, including the ones that are unrelated to my career as a software engineer.
+
+Since I already wanted to make changes and needed to switch hosting providers, it seemed like a good time to consider moving away from Grav. My experience with Grav had been fine, but not stellar. At one point my whole site broke after a failed Grav update, and I had to restore a backup to get things working again. I had also noticed that load times were painfully slow -- 10-15 seconds over fast Internet -- whenever Grav didn't have a copy of the requested page in its cache. Because of these experiences, I decided to explore some alternatives with a focus on simplicity, flexibility, and speed.
+
+I don't have any dynamic or interactive content, so it didn't take me long to settle on using a static site generator -- serving static files is dead simple and super speedy. I considered generators like [Hugo](https://gohugo.io) that have full-featured templating languages and tons of existing themes, but learning a whole new platform just didn't sound appealing to me. At the opposite end of the spectrum, I thought about using plain old HTML, but I enjoy Markdown too much to do that. Eventually I started wondering if I could write my content in Markdown and then use Pandoc, which I already used regularly to [convert Markdown files to PDFs](https://github.com/jasonccox/topdf), to convert the files to HTML. After a quick web search, I found a [blog post](https://itnext.io/glorious-makefile-building-your-static-website-4e7cdc32d985) describing how Pandoc and Make could be used to do just that. I was sold.
+
+A few hours later, I'd created my own custom static site generator. (You can [check it out on GitHub](https://github.com/jasonccox/static-site).) So far, I've thoroughly enjoyed it. Pandoc and Make provide the features I care about most -- converting Markdown to HTML; inserting a consistent header, footer, and stylesheet; and building the whole site with a single command -- but not much more. I understand how it all works because I built it myself, yet I don't have to maintain anything more than a simple `Makefile`. I even found a convenient way to [host the site for free with Digital Ocean's App Platform](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-static-website-to-the-cloud-with-digitalocean-app-platform)!
+
+I will admit that this DIY approach has required me to keep the site's look pretty simple. For example, my list of creations used to be a fancy grid of tiles, each of which was composed of several identical levels of HTML elements. Doing that without using templates would involve copying and pasting lots of code and would get messy quickly, so my new site simply lists projects as a plain bulleted list. But that's fine with me -- I was already planning on simplifying the site layout anyway. I've applied the same philosophy to the rest of the site, doing as much possible with the basic structures available in Markdown and sprinkling in HTML where needed.
+
+This approach certainly isn't for everyone, but it's working great for me. My site is simple yet still plenty flexible. Load times are lightning fast. I'm even able to host the files for free. And best of all, I'm having fun with my site again and feel excited to continue working on it in the future.
+
+*[Last updated December 21, 2020]*
