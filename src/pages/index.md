@@ -10,9 +10,9 @@ I'm a software engineer, computer networking nerd, aspiring small business owner
 
 Here's the general layout of the site:
 
-- [Creations](/creations): A list of things I've built (often software, but not always)
+- [Creations](/creations/): A list of things I've built (often software, but not always)
 
-- [Blog](/blog): Stories, how-tos, and my thoughts on various topics
+- [Blog](/blog/): Stories, how-tos, and my thoughts on various topics
 
 - [Resume](/resume.html): A summary of my professional and academic accomplishments
 
