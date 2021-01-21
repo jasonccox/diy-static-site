@@ -64,3 +64,7 @@ clean-all: clean
 preview: all
 	cd $(DST_DIR); \
 	busybox httpd -f -p 8000
+
+.PHONY: watch
+watch:
+	while inotifywait --recursive --event modify --quiet src/; do make; done

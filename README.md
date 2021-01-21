@@ -13,6 +13,7 @@ The following commands are particularly useful:
 - `make` - Builds the entire site.
 - `make clean` - Removes the built files (but not the `pandoc` binary).
 - `make preview` - Builds the entire site and launches a basic web server with `busybox httpd`. The site can then be previewed at `http://localhost:8000`.
+- `make watch` - Watches for changes in the `src/` directory using `inotifywait` and automatically runs `make`.
 
 ## Organization
 
