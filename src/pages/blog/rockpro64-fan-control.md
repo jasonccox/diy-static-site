@@ -1,10 +1,10 @@
 ---
-pagetitle: Fan Control on Armbian's Ubuntu 20.04 RockPro64 Server Image
+pagetitle: Fan Control on Armbian's Ubuntu 20.04 ROCKPro64 Server Image
 ---
 
-# Fan Control on Armbian's Ubuntu 20.04 RockPro64 Server Image
+# Fan Control on Armbian's Ubuntu 20.04 ROCKPro64 Server Image
 
-When my old desktop PC that was acting as a home server failed on me recently, I switched back to using my [RockPro64](https://www.pine64.org/rockpro64/) for the job. Previously I'd used it with [ayufan's Debian Buster image](https://github.com/ayufan-rock64/linux-build/releases/tag/0.9.14), but this time I decided to try out [Armbian's Ubuntu 20.04 server image](https://www.armbian.com/rockpro64/) based on the 5.9 Linux kernel. Everything went beautifully -- even installing the ZFS DKMS module -- except that there doesn't seem to be any built-in fan control.
+When my old desktop PC that was acting as a home server failed on me recently, I switched back to using my [ROCKPro64](https://www.pine64.org/rockpro64/) for the job. Previously I'd used it with [ayufan's Debian Buster image](https://github.com/ayufan-rock64/linux-build/releases/tag/0.9.14), but this time I decided to try out [Armbian's Ubuntu 20.04 server image](https://www.armbian.com/rockpro64/) based on the 5.9 Linux kernel. Everything went beautifully -- even installing the ZFS DKMS module -- except that there doesn't seem to be any built-in fan control.
 
 > Check out the [dedicated page about my home server](/creations/home-server.html) if you're interested in more of the details of how it's set up!
 

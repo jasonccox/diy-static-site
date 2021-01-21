@@ -24,7 +24,7 @@ The server has two 1 TB hard drives, which act as mirrors under the ZFS file sys
 
 ## Hardware
 
-The server is a [Pine64 RockPro64](https://www.pine64.org/rockpro64/) in a [NAS case](https://pine64.com/product/rockpro64-metal-desktop-nas-casing/). It has [Pine64's largest heat sink](https://pine64.com/product/rockpro64-30mm-tall-profile-heatsink/) and a [fan](https://pine64.com/product/fan-for-rockpro64-metal-desktop-nas-casing/) for active cooling. Two 1TB Western Digital Red hard drives are connected via a [PCI-E to SATA adapter](https://pine64.com/product/rockpro64-pci-e-to-dual-sata-ii-interface-card/).
+The server is a [Pine64 ROCKPro64](https://www.pine64.org/rockpro64/) in a [NAS case](https://pine64.com/product/rockpro64-metal-desktop-nas-casing/). It has [Pine64's largest heat sink](https://pine64.com/product/rockpro64-30mm-tall-profile-heatsink/) and a [fan](https://pine64.com/product/fan-for-rockpro64-metal-desktop-nas-casing/) for active cooling. Two 1TB Western Digital Red hard drives are connected via a [PCI-E to SATA adapter](https://pine64.com/product/rockpro64-pci-e-to-dual-sata-ii-interface-card/).
 
 ## Tweaks
 
