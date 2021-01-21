@@ -64,6 +64,7 @@ a:hover {
     color: darkblue;
     text-decoration: none;
     border-bottom-color: darkblue;
+    border-bottom-style: solid;
 }
 
 code, pre {
@@ -162,6 +163,7 @@ header nav a {
 
 header nav a:hover {
     color: grey;
+    border: none;
 }
 
 #logo {
