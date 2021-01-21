@@ -93,6 +93,22 @@ hr {
     border-top: 1px grey solid;
 }
 
+blockquote {
+    background-color: #eaf2fd;
+    border-left: 0.5rem solid #6c98ce;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    width: calc(100% - 0.5rem);
+}
+
+blockquote :first-child {
+    margin-top: 0;
+}
+
+blockquote :last-child {
+    margin-bottom: 0;
+}
+
 .block-center {
     display: block;
     margin: auto;

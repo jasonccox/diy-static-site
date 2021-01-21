@@ -6,6 +6,8 @@ pagetitle: Blog
 
 Occasionally I write about my something I've done or my thoughts on a particular topic. Don't expect any sort of consistent schedule, though!
 
+- [Fan Control on Armbian's Ubuntu 20.04 RockPro64 Server Image](./rockpro64-fan-control.html): Armbian's Ubuntu 20.04 server image for the RockPro64 works great -- even the ZFS DKMS module installs without a hiccup! However, it has no built-in fan control; this post explains how I got it set up.
+
 - [Why I Switched to a Super Simple Static Site](./switch-to-static.html): For the last year and a half I ran my personal website using Grav CMS with my own Webfolio theme. However, it's now a super simple static site built with Pandoc and GNU Make. In this post, I explain why I decided to make that switch.
 
 - [On Self-Hosting](./on-self-hosting.html): After a failed attempt at self-hosting a few years ago, I eventually decided to give it another shot. It's been a fun, satisfying adventure, and I highly recommend you try it as well.
