@@ -6,6 +6,8 @@ pagetitle: Creations
 
 I love creating things. It's a big part of why I enjoy software development, and it often motivates me to take a DIY approach to solve my problems. Below are some of my creations; so far they're all computer projects, but I hope to add more non-tech creations soon.
 
+- [vim-wayland-clipboard](https://github.com/jasonccox/vim-wayland-clipboard): A simple Vim plugin to integrate the `+` register with Wayland's system clipboard using [wl-clipboard](https://github.com/bugaevc/wl-clipboard).
+
 - [static-site](https://github.com/jasonccox/static-site): The code behind this website! I use [pandoc](https://pandoc.org) to convert Markdown to HTML and have a Makefile to orchestrate the whole process.
 
 - [Home Server](home-server.html): An old desktop PC running [Nextcloud](https://nextcloud.com) and [Pi-hole](https://pi-hole.net). I've had a lot of fun getting into self-hosting and have learned tons along the way.
