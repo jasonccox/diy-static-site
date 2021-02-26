@@ -37,6 +37,7 @@ $(PAGE_DST_FILES): $(DST_DIR)/%.html: $(PAGE_DIR)/%.md $(HEADER) $(FOOTER) pando
 		$(CSS_ARGS) \
 		--standalone \
 		--title-prefix 'Jason Cox' \
+		--variable='lang:en' \
 		--output=$@ $<
 
 .PHONY: static
