@@ -167,12 +167,29 @@ header nav a:hover {
 }
 
 #logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#logo-img {
     height: 2rem;
 }
 
-@media only screen and (max-width: 30rem) {
+#logo-txt {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 32rem) {
     header {
         flex-flow: column;
+    }
+
+    header nav {
+        margin-top: 0.5rem;
     }
 
     header nav ul li:last-of-type {
