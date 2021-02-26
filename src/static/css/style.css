@@ -123,6 +123,21 @@ blockquote :last-child {
 
 /* HEADER {{{ */
 
+#skip-to-main {
+    display: block;
+    width: 10rem;
+    position: fixed;
+    top: 0.5rem;
+    left: -15rem;
+    z-index: 1;
+    text-align: center;
+    background: #ffffff;
+}
+
+#skip-to-main:focus {
+    left: calc(50% - 5rem);
+}
+
 header {
     display: flex;
     justify-content: space-between;
