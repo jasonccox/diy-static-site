@@ -51,6 +51,7 @@ pandoc:
 	curl -L -o pandoc.tar.gz "$(PANDOC_URL)"
 	tar -xzf pandoc.tar.gz
 	mv pandoc-$(PANDOC_VERSION)/bin/pandoc ./
+	chmod +x pandoc
 	rm -rf pandoc-$(PANDOC_VERSION) pandoc.tar.gz
 
 .PHONY: clean
