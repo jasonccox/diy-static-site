@@ -1,6 +1,6 @@
 # Static Site
 
-This repo contains my static site's content as well as the `Makefile` needed to build it.
+This repo contains a previous version of my static site. I took a DIY approach and used `pandoc` and a `Makefile` to build it.
 
 ## How It Works
 
